@@ -1,0 +1,28 @@
+{
+  "name": "veebiprogrameerimine",
+  "version": "1.0.0",
+  "description": "Veebiprogrammeerimise rühm 2 express.js rakendus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MarkusPunane@github.com/MarkusPunane/Veebiprogrameerimine.git"
+  },
+  "keywords": [
+    "veebiprogrammeerimine",
+    "Node.js",
+    "Tallinna",
+    "Ülikool"
+  ],
+  "author": "Markus Punane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkusPunane/Veebiprogrameerimine/issues"
+  },
+  "homepage": "https://github.com/MarkusPunane/Veebiprogrameerimine#readme",
+  "dependencies": {
+    "express": "~4.16.1"
+  }
+}
