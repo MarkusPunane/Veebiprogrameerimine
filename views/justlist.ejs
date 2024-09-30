@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <title>Markus Punane</title>
+</head>
+<body>
+  <img src="/banner/vp_banner_2024.png" alt="veebiprogrammeerimise 2024 aasta kursuse banner">
+  <h1>Markus Punane</h1>
+  <p>See leht on loodud õppetöö raames <a href="https://www.tlu.ee">Tallinna Ülikoolis</a>, Digitehnoloogiate instituudis ja ei sisalda tõsiseltvõetavat materjali!</p>
+  <hr>
+  <ul>
+	<li><a href="/"> Ajainfo</a></li>
+  </ul>
+  <hr>
+  <h2><%= h2 %></h2>
+  <p>Selle lehe avamise hetkel oli.</p>
+  <ol>
+	<% listData.forEach(function(phrase){%>
+	  <li><%= phrase %></li>
+	<% });%>
+  </ol>	
+</body>
+</html>
